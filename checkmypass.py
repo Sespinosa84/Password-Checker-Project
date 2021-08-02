@@ -37,8 +37,8 @@ def main(args):
 			print(f'{password} was NOT found. good password!!')
 	return 'done!!'
 
-
-main(sys.argv[1:])
+if __name__ == '__main__':
+	sys.exit(main(sys.argv[1:]))
 
 
 
